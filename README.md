@@ -40,6 +40,15 @@ The API documentation is available at http://pkcs11wrap.sourceforge.net/api/
 
 Unix Howto
 ==========
+
+Prerequisites
+
+* Install python3
+* Install swig
+* Ensure pip, setuptools, and wheel are [up to date](https://packaging.python.org/tutorials/installing-packages/#ensure-pip-setuptools-and-wheel-are-up-to-date)::
+
+    `$ pip3 install --upgrade pip setuptools wheel`
+
 To install::
 
     $ make build
